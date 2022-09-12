@@ -31,8 +31,8 @@ public with sharing class EmailClass {
             messaging.SingleEmailMessage mail = new messaging.SingleEmailMessage();
             mail.setToAddresses(emailDetails.toAddress);
             mail.setCcAddresses(emailDetails.ccAddress);
-            mail.setReplyTo('kishore.k@xyz.com');
-            mail.setSenderDisplayName('Kishore');
+            mail.setReplyTo(emailDetail.ReplyTo);
+            mail.setSenderDisplayName(emailDetail.SenderDisplayName);
             mail.setSubject(emailDetails.subject);
             mail.setHtmlBody(emailDetails.body);
             mail.setEntityAttachments(emailDetails.files);
