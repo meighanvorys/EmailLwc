@@ -1,6 +1,6 @@
 # EmailLwc
 
-<a href="https://githubsfdeploy.herokuapp.com/app/githubdeploy">
+<a href="https://githubsfdeploy.herokuapp.com/githubdeploy">
   <img alt="Deploy to Salesforce"
-       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
+       src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/deploy.png">
 </a>
